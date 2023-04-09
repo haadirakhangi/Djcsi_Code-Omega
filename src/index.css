@@ -25,13 +25,22 @@ code {
   animation-iteration-count: infinite;
 }
 @keyframes example {
-  from {color: black;}
-  to {color:gray;}
+  /* from {color: black;}
+  to {color:gray;} */
+  0%{
+    color:black;
+  }
+  50%{
+    color:grey;
+  }
+  100%{
+    color:black;
+  }
 }
 .switch{
   position: relative;
   display: inline-block;
-  width: 140px;
+  width: 120px;
   height: 44px;
   
 }
@@ -54,14 +63,14 @@ code {
   position: absolute;
   content: "";
   height: 44px;
-  width: 75px;
+  width: 70px;
   background-color: black;
   transition: 0.4s;
   border-radius: 50rem;
 }
 
 input:checked + .slider::before{
-  transform: translateX(80px);
+  transform: translateX(50px);
 }
 
 @media screen and (max-width: 1426px) {

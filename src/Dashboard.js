@@ -10,10 +10,11 @@ import user from './assets/user.jpg'
 
 const Dashboard = () => {
     return (
-        <div className='w-72 h-full border-2 bg-gray-100 rounded fixed left-0 '>
+        <div className='w-72 h-full border-2 bg-gray-100 rounded fixed left-0 ' style={{backgroundColor: 'pink',
+        color: 'white'}}>
             <div className='flex mt-7 ml-10 items-center gap-x-3'>
                 <img src={logo} className='w-8 h-8' />
-                <strong className='text-xl'>BRESS</strong>
+                <strong className='text-xl'>SecureKids</strong>
             </div>
             <hr className='w-64 mt-4 mb-2 ml-4 border'></hr>
             <div className='flex mt-10 ml-10 items-center gap-x-3 w-48 h-8 hover:bg-sky-400 hover:text-black rounded-2xl'>
