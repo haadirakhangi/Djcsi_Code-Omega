@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const Lasttask = () => {
     return (
-        <div className='mt-12 w-10/12 h-auto ml-80 bg-white rounded-xl'>
+        <div className='mt-12 w-10/12 h-auto ml-20 bg-white rounded-xl'>
             <div className='flex'>
                 <div>
                     <strong><h1 className='text-3xl mt-7 ml-20'>Recent Tasks</h1></strong>

@@ -25,15 +25,15 @@ const columns = [
 ];
 
 const rows = [
-  { id: 1, name: 'pycharm64.exe', status:'running', create_time: "2023-04-08 13:23:10" , duration:'0hrs0mins0secs'},
-  { id: 2, name: 'explorer.exe', status: 'running', create_time:  "2023-04-06 20:13:48" , duration:'0hrs0mins0secs'},
-  { id: 3, name: 'opera.exe', status: 'running', create_time: "2023-04-07 17:24:29" , duration:'0hrs0mins0secs'},
-  { id: 4, name: 'explorer.exe', status: 'running', create_time:  "2023-04-06 20:13:48" , duration:'0hrs0mins0secs'},
-  { id: 5, name: 'msedge.exe', status: 'running', create_time: "2023-04-08 13:19:00", duration:'0hrs0mins0secs' },
-  { id: 6, name: 'explorer.exe', status:'running', create_time: "2023-04-06 20:13:48", duration:'0hrs0mins0secs' },
-  { id: 7, name: 'sublime_text.exe', status: 'running', create_time: "2023-04-08 21:14:59", duration:'0hrs0mins0secs' },
-  { id: 8, name: 'explorer.exe', status: 'running', create_time:  "2023-04-06 20:13:48", duration:'0hrs0mins0secs' },
-  { id: 9, name: 'msedge.exe', status: 'running', create_time: "2023-04-08 13:19:00" , duration:'0hrs0mins0secs'},
+  { id: 1, name: 'pycharm64.exe', status:'running', create_time: "2023-04-08 13:23:10" , duration:'0mins'},
+  { id: 2, name: 'explorer.exe', status: 'running', create_time:  "2023-04-06 20:13:48" , duration:'0mins'},
+  { id: 3, name: 'opera.exe', status: 'running', create_time: "2023-04-07 17:24:29" , duration:'0mins'},
+  { id: 4, name: 'explorer.exe', status: 'running', create_time:  "2023-04-06 20:13:48" , duration:'0mins'},
+  { id: 5, name: 'msedge.exe', status: 'running', create_time: "2023-04-08 13:19:00", duration:'0mins' },
+  { id: 6, name: 'explorer.exe', status:'running', create_time: "2023-04-06 20:13:48", duration:'0mins' },
+  { id: 7, name: 'sublime_text.exe', status: 'running', create_time: "2023-04-08 21:14:59", duration:'0mins' },
+  { id: 8, name: 'explorer.exe', status: 'running', create_time:  "2023-04-06 20:13:48", duration:'0mins' },
+  { id: 9, name: 'msedge.exe', status: 'running', create_time: "2023-04-08 13:19:00" , duration:'0mins'},
 ];
 
 export default function DataTable() {

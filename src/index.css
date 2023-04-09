@@ -10,7 +10,7 @@ body {
 .log{
   font-family: 'Inspiration', cursive;
 }
-code {
+.code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
@@ -40,9 +40,12 @@ code {
 .switch{
   position: relative;
   display: inline-block;
-  width: 120px;
-  height: 44px;
+  width: 75px;
+  height: 30px;
   
+}
+.back{
+  background-color: #28282B;
 }
 .switch input{
   opacity: 0;
@@ -62,19 +65,19 @@ code {
 .slider::before{
   position: absolute;
   content: "";
-  height: 44px;
-  width: 70px;
+  height: 30px;
+  width: 45px;
   background-color: black;
   transition: 0.4s;
   border-radius: 50rem;
 }
 
 input:checked + .slider::before{
-  transform: translateX(50px);
+  transform: translateX(40px);
 }
 
-@media screen and (max-width: 1426px) {
+/* @media screen and (max-width: 1426px) {
   .done{
   
   }
-}
+} */

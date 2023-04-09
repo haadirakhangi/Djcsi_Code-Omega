@@ -56,10 +56,7 @@ const Graph = () => {
     });
     return (
         <div className='flex'>
-            <div style={{ width: 550, backgroundColor: 'white' }} className=' mt-12 ml-80 flex items-center mt-16 rounded-xl h-10/12 mb-80'>
-                <ChartBox chartData={userData} />
-            </div>
-            <div style={{ width: 550, backgroundColor: 'white' }} className=' mt-12 ml-12 flex items-center mt-16 rounded-xl h-10/12 mb-80'>
+            <div style={{ width: 470, backgroundColor: 'white' }} className=' ml-16 flex items-center mt-16 rounded-xl h-10/12'>
                 <Bargraph chartData={userData} />
             </div>
         </div>
