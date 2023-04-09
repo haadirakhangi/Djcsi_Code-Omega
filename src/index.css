@@ -25,8 +25,11 @@ code {
   animation-iteration-count: infinite;
 }
 @keyframes example {
-  from {color: black;}
-  to {color:gray;}
+  /* from {color: black;} 
+  to {color:gray;} */
+  0%{color:black}
+  50%{color:gray}
+  100%{color:black}
 }
 .switch{
   position: relative;
