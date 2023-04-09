@@ -8,7 +8,7 @@ const First = () => {
     return (
         <div>
             <div className='flex mt-4'>
-                <div className='w-56 h-44 ml-12 mt-4  rounded-2xl  drop-shadow-lg border-2 border-gray-200'>
+                <div className='w-56 h-44 ml-12 mt-4  rounded-2xl  drop-shadow-lg border-2 bg-sky-200'>
                     <h1 className=' text-sm mt-4 ml-12 mb-3'><strong>Block Apps & Sites</strong></h1>
                     <img src={web} className='w-16 h-16 rounded-xl drop-shadow-lg ml-20' />
                     <p className='text-sm ml-16 text-gray-500 absolute mt-4'>2 Web | 4 Apps</p>

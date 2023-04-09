@@ -1,6 +1,6 @@
 import React, { useEffect, useState} from 'react'
 
-// const Login = () => {
+const Login = () => {
 //   const [username, setUsername]=useState('')
 //   const [pass, setpass]=useState('')
 //   const [email, setemail]=useState('')
@@ -25,7 +25,7 @@ import React, { useEffect, useState} from 'react'
   
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8" style={{alignContent:'center', alignItems:'center'}}>
-      <div className='flex flex-col justify-center' style={{height:'500px',width:'500px',alignItems:'center',border:'2px solid #ef4444',borderRadius:'25px', background:'#c084fc'}}>
+      <div className='flex flex-col justify-center' style={{height:'500px',width:'500px',alignItems:'center',border:'2px solid #ef4444',borderRadius:'25px', background:'#f57f58'}}>
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
           <p className='items-center mt-8 ml-44 log text-5xl' style={{transform:'translateX(-13px)'}}><strong>KidSecure</strong></p>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 ">

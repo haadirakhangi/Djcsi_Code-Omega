@@ -12,7 +12,7 @@ const Signin = () => {
 
   return (
     <div className='bg-gray-100 h-screen w-screen flex' style={{width:'100%', alignItems:'center',justifyContent:'center',alignContent:'center'}}>
-      <div style={{border:'2px solid #ef4444',height:'550px',width:'35vw',borderRadius:'25px',backgroundColor:'#0000'}}>
+      <div style={{border:'2px solid #ef4444',height:'550px',width:'35vw',borderRadius:'25px',backgroundColor:'#f57f58'}}>
       <form onSubmit={handleSubmit} className="max-w-md mx-auto">        
         <p className='justify-content ml-44 log text-5xl' style={{paddingTop:'40px',transform: "translateX(-20px)",}}><strong>KidSecure</strong></p>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 mb-12">

@@ -66,7 +66,7 @@ const Dashboard = () => {
 
             <div className='flex mt-6 ml-10 bg-white text-black items-center w-40 h-8 hover:bg-sky-200 hover:text-black rounded-2xl'>
                 <img src={message} className='w-8 h-8 ml-5 rounded-full' />
-                <p>Message</p>
+                <p>Notifications</p>
             </div>
             <div className='flex mt-10 ml-10 bg-white text-black items-center w-40 h-8 hover:bg-sky-200 hover:text-black rounded-2xl'>
                 <img src={setting} className='w-8 h-8 ml-5 rounded-full' />

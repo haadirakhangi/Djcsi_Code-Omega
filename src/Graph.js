@@ -7,41 +7,41 @@ const Graph = () => {
     const rows = [
         {
             id: 1,
-            year: 2016,
-            userGain: 80000,
-            userLost: 823,
-        },
+            name: 'pycharm',
+            time: 30,
+            // userLost: 823,
+        }, 
         {
             id: 2,
-            year: 2017,
-            userGain: 45677,
-            userLost: 345,
+            name: 'explorer',
+            time: 20,
+            // userLost: 345,
         },
         {
             id: 3,
-            year: 2018,
-            userGain: 78888,
-            userLost: 555,
+            name: 'opera',
+            time: 50,
+            // userLost: 555,
         },
         {
             id: 4,
-            year: 2019,
-            userGain: 90000,
-            userLost: 4555,
+            name: 'msedge',
+            time: 25,
+            // userLost: 4555,
         },
         {
             id: 5,
-            year: 2020,
-            userGain: 4300,
-            userLost: 234,
+            name: 'explorer',
+            time: 40,
+            // userLost: 234,
         },
     ];
     const [userData, setUserData] = useState({
-        labels: rows.map((data) => data.year),
+        labels: rows.map((data) => data.name),
         datasets: [
             {
-                label: "Users Gained",
-                data: rows.map((data) => data.userGain),
+                label: "Time    spent (in minutes)",
+                data: rows.map((data) => data.time),
                 backgroundColor: [
                     "rgba(75,192,192,1)",
                     "#ecf0f1",

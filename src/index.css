@@ -25,11 +25,17 @@ body {
   animation-iteration-count: infinite;
 }
 @keyframes example {
-  /* from {color: black;} 
+  /* from {color: black;}
   to {color:gray;} */
-  0%{color:black}
-  50%{color:gray}
-  100%{color:black}
+  0%{
+    color:black;
+  }
+  50%{
+    color:grey;
+  }
+  100%{
+    color:black;
+  }
 }
 .switch{
   position: relative;
@@ -70,8 +76,8 @@ input:checked + .slider::before{
   transform: translateX(40px);
 }
 
-@media screen and (max-width: 1426px) {
+/* @media screen and (max-width: 1426px) {
   .done{
   
   }
-}
+} */
