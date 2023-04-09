@@ -1,6 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState} from 'react'
 
-const Login = () => {
+// const Login = () => {
+//   const [username, setUsername]=useState('')
+//   const [pass, setpass]=useState('')
+//   const [email, setemail]=useState('')
+
+// async function submit(){
+//   email.preventDefault();
+//   try{
+//     await axios.post("http://localhost:8000/",{
+//       username,email,pass
+//     }).then(res=>{
+//       if(res.data=="exist"){
+//         history("/home",{state:{id:email}})
+//       }else if(res.data="notexist"){
+//         alert("User have not registered")
+//       }
+//     })
+//   }catch(e){
+//     console.log(e)
+//   }
+// }
+
+  
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8" style={{alignContent:'center', alignItems:'center'}}>
       <div className='flex flex-col justify-center' style={{height:'500px',width:'500px',alignItems:'center',border:'2px solid #ef4444',borderRadius:'25px', background:'#c084fc'}}>
