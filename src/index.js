@@ -11,6 +11,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
+import Table from './Components/Table';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
         <Route exact path='/signin' element={< Signin />}></Route>
         <Route exact path='/app' element={< App />}></Route>
         <Route exact path='/parent' element={< ParentalLock />}></Route>
+        <Route exact path='/table' element={< Table />}></Route>
       </Routes>
     </Router>
     {/*<App />*/}
