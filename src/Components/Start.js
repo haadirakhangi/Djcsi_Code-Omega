@@ -11,13 +11,12 @@ const Start = () => {
             <div>
                 <div className='relative'>
                     <div className='absolute'>
-                        <NavLink to="/login"><button className=' w-28 h-8  mt-12 ml-12 rounded-3xl bg-white  text-black text-md hover:bg-sky-400 hover:text-white'>Login</button></NavLink>
-                        <NavLink to="/signin"><button className=' w-28 h-8  mt-12 ml-4 rounded-3xl bg-white text-black text-md hover:bg-sky-400 hover:text-white'>Sign In</button></NavLink>
-                        <h1 className='mt-44 text-5xl text-gray-200 ml-12 w-96'><strong>Get Assured ..!!</strong></h1>
+                        <h1 className='mt-44 text-5xl text-white ml-12 w-96'><strong>Get Assured</strong></h1>
+                        <button className=' w-64 h-12 mt-12 ml-12 rounded-3xl bg-sky-400 text-white text-xl hover:bg-white hover:text-black'>Get Started</button>
                     </div>
                     <img src={parent} className='h-screen w-screen ' />
                 </div>
-                <div className='ml-80 mt-32 mb-24 ' data-aos="flip-left">
+                <div className='ml-80 mt-32 mb-20 ' data-aos="flip-left">
                     <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
                         <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20"></div>
                         <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"></div>
@@ -37,6 +36,9 @@ const Start = () => {
                                         <div className="text-gray-600">CEO of KidSecure</div>
                                     </div>
                                 </figcaption>
+
+
+                                
                             </figure>
                         </div>
                     </section>
@@ -44,7 +46,6 @@ const Start = () => {
                 </div>
 
 
-                
 
             </div>
 
@@ -52,7 +53,7 @@ const Start = () => {
             <Right />
 
 
-           
+
         </div>
     )
 }

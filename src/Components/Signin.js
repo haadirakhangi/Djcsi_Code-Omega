@@ -11,9 +11,10 @@ const Signin = () => {
   };
 
   return (
-    <div className='bg-gray-100 h-screen w-screen'>
+    <div className='bg-gray-100 h-screen w-screen flex' style={{width:'100%', alignItems:'center',justifyContent:'center',alignContent:'center'}}>
+      <div style={{border:'2px solid #ef4444',height:'550px',width:'35vw',borderRadius:'25px',backgroundColor:'#0000'}}>
       <form onSubmit={handleSubmit} className="max-w-md mx-auto">        
-        <p className='items-center ml-44 log text-5xl' style={{paddingTop:'40px'}}><strong>KidSecure</strong></p>
+        <p className='justify-content ml-44 log text-5xl' style={{paddingTop:'40px',transform: "translateX(-20px)",}}><strong>KidSecure</strong></p>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 mb-12">
           Register for your account
         </h2>
@@ -62,6 +63,7 @@ const Signin = () => {
           </button>
         </div>
       </form>
+      </div>
     </div>
   );
 }
